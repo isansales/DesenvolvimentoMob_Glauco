@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# DesenvolvimentoMob_Glauco
 
-## Get started
+Este repositório contém o projeto desenvolvido para a disciplina de Desenvolvimento Mobile. A aplicação foi construída utilizando React Native com o ecossistema Expo.
 
-1. Install dependencies
+## Como criar um projeto Expo do zero
 
-   ```bash
-   npm install
-   ```
+Caso queira replicar este ambiente ou iniciar um novo projeto, siga os passos abaixo:
 
-2. Start the app
+1. Instale o Node.js: Tenha o Node.js instalado (versão LTS).
+2. Crie o projeto: No terminal, execute o comando: npx create-expo-app@latest meu-projeto-mobile
+3. Acesse a pasta: cd meu-projeto-mobile
 
-   ```bash
-   npx expo start
-   ```
+## Instalação e Configuração
 
-In the output, you'll find options to open the app in a
+Para rodar este projeto específico, siga estas etapas:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Clone o repositório ou abra a pasta no VS Code.
+2. Instale as dependências: No terminal do VS Code, execute: npm install (Isso baixará todas as bibliotecas listadas no package.json).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Como Rodar o Projeto
 
-## Get a fresh project
+1. No terminal, inicie o servidor do Expo: npx expo start
+2. Escolha como deseja visualizar: 
+- No celular: Baixe o app Expo Go (Android/iOS) e escaneie o QR Code que aparecerá no terminal.
+- No Android (Emulador): Pressione 'a'.
+- No iOS (Simulador): Pressione 'i'.
+- No Navegador: Pressione 'w'.
 
-When you're ready, run:
+## Comandos para subir no GitHub
 
-```bash
-npm run reset-project
-```
+Para enviar suas alterações para este repositório remoto, utilize os seguintes comandos no terminal:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Inicializar o git (se necessário): git init
+2. Adicionar os arquivos: git add .
+3. Criar um commit: git commit -m "feat: configuração inicial do projeto e README"
+4. Definir a branch principal: git branch -M main
+5. Conectar ao repositório: git remote add origin [https://github.com/isansales/DesenvolvimentoMob_Glauco.git](https://github.com/isansales/DesenvolvimentoMob_Glauco.git)
+6. Enviar para o GitHub: git push -u origin main
 
-## Learn more
+## Tecnologias Utilizadas
+- React Native
+- Expo
+- TypeScript/JavaScript
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Desenvolvido para a disciplina de Desenvolvimento Mobile.
